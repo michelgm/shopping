@@ -10,7 +10,6 @@ class HomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.all(15),
-          color: Color(0xfff5f5f5),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
@@ -23,9 +22,7 @@ class HomePage extends StatelessWidget {
               ),
               Text(
                 'Categories',
-                style: TextStyle(
-                  fontSize: 30,
-                ),
+                style: Theme.of(context).textTheme.headline4,
               ),
               SizedBox(
                 height: 10,
@@ -42,9 +39,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   Text(
                     'Best selling',
-                    style: TextStyle(
-                      fontSize: 30,
-                    ),
+                    style: Theme.of(context).textTheme.headline4,
                   ),
                   FlatButton(
                     child: Text('See All'),
