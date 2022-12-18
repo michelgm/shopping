@@ -1,6 +1,6 @@
 # shopping
 
-A Flutter project with beautiful layouts. 
+A Flutter project with animations and beautiful layouts. 
 
 
 
